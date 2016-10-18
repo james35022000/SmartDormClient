@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_connecting"
+        android:checkable="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_reconnect"
+        android:icon="@drawable/ic_action_name2"
+        android:title="@string/menu_reconnect"
+        android:onClick="reconnect_onclick"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_connected"
+        android:icon="@drawable/ic_action_name3"
+        android:title="@string/menu_connected"
+        android:checkable="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_setting" />
+</menu>

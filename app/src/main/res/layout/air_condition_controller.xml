@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.79"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="79dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView_controller"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:text="24 °C"
+            android:textSize="40dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:id="@+id/imageView_ACpower"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_power_settings"
+            android:layout_marginLeft="40dp"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.14">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:id="@+id/imageView_plus"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_expand_more"
+            android:onClick="onClick"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:id="@+id/imageView_minus"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_expand_more_black"
+            android:onClick="onClick"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

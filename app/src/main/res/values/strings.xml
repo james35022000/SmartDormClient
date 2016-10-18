@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Internet-Practice v1.0</string>
+    <string name="menu_reconnect">重新連線</string>
+    <string name="menu_connected">已連線</string>
+    <string name="menu_setting">設定</string>
+    <string name="main_title">SmartDorm Client</string>
+    <string name="tab_debug">Debug</string>
+    <string name="tab_washingclothes">排隊洗衣</string>
+    <string name="tab_AC_controller">冷氣遙控器</string>
+    <string name="tab_temperature">房間資訊</string>
+    <string name="tab_info">關於</string>
+    <string name="button_washingclothes_update">更新列表</string>
+    <string name="button_washingclothes_lineup">排隊</string>
+    <string name="textView_temperature">溫度 :</string>
+    <string name="textView_humidity">濕度 :</string>
+    <string name="textView_updatetime">更新時間 :</string>
+    <string name="textView_distance">測距 :</string>
+    <string name="ble_not_supported">Device not support BLE !</string>
+    <string name="error_bluetooth_not_supported">Device not support Bluetooth !</string>
+</resources>

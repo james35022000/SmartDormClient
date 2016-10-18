@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:id="@+id/listView_WCinfo"
+        android:layout_weight="0.37" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_washingclothes_update"
+            android:id="@+id/button_update"
+            android:layout_margin="30dp"
+            android:layout_weight="0.02"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_washingclothes_lineup"
+            android:id="@+id/button_lineup"
+            android:layout_margin="30dp"
+            android:layout_weight="0.02"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Server Time :"
+        android:id="@+id/textView_WCStime"
+        android:layout_weight="0.09" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.09"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Queuing number : "
+            android:id="@+id/textView_WCSinfo"
+            android:layout_weight="0.54" />
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:id="@+id/imageView_BT"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/ic_bluetooth"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_WCSupdate"
+        android:layout_weight="0.37"
+        android:indeterminate="false"
+        android:max="100" />
+
+
+</LinearLayout>
