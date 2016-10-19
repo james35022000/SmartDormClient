@@ -11,4 +11,5 @@ Features:
   * Washing clothes line up system.  
   * Anti-theif alarm.  
     
-※Features above need to connect to Evaluation Board( ***SmartDorm_ARM*** project ) or it won't work.
+※Features above need to connect to Evaluation Board( [***SmartDorm_ARM***][src] project ) or it won't work.
+[src]:https://github.com/james35022000/SmartDorm_ARM
