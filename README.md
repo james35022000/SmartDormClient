@@ -1,5 +1,5 @@
 # SmartDormClient
-ARM Design Contest
+ARM Design Contest 2016  
 
 ###Android Application  
 
